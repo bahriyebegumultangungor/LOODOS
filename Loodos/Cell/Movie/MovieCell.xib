@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="MovieCell" reuseIdentifier="MovieCell" id="gTV-IL-0wX" customClass="MovieCell">
+            <rect key="frame" x="0.0" y="0.0" width="397" height="199"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="397" height="199"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="noImage" translatesAutoresizingMaskIntoConstraints="NO" id="cUG-cw-a5P">
+                        <rect key="frame" x="0.0" y="0.0" width="132.5" height="199"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="cUG-cw-a5P" secondAttribute="height" multiplier="2:3" id="NIN-eo-zg0"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="JOKER" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vLg-6u-pgB">
+                        <rect key="frame" x="142.5" y="57.5" width="244.5" height="22"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2019" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CVe-k3-Kt3">
+                        <rect key="frame" x="142.5" y="89.5" width="244.5" height="20"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8.7" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nzk-0m-mTI">
+                        <rect key="frame" x="0.0" y="0.0" width="66.5" height="23"/>
+                        <color key="backgroundColor" red="0.93083149190000003" green="0.77778470519999998" blue="0.28219687939999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="19"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Drama/Gerilim" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tR7-6e-U0g">
+                        <rect key="frame" x="142.5" y="119.5" width="244.5" height="20"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="cUG-cw-a5P" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="3tN-Ds-9T3"/>
+                <constraint firstItem="cUG-cw-a5P" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="6xA-vh-Uoa"/>
+                <constraint firstAttribute="trailing" secondItem="CVe-k3-Kt3" secondAttribute="trailing" constant="10" id="BGM-TN-2Kt"/>
+                <constraint firstItem="vLg-6u-pgB" firstAttribute="leading" secondItem="cUG-cw-a5P" secondAttribute="trailing" constant="10" id="GSI-z3-ZtA"/>
+                <constraint firstAttribute="bottom" secondItem="cUG-cw-a5P" secondAttribute="bottom" id="Hvk-D2-6GV"/>
+                <constraint firstItem="CVe-k3-Kt3" firstAttribute="top" secondItem="vLg-6u-pgB" secondAttribute="bottom" constant="10" id="ImQ-Ac-AD0"/>
+                <constraint firstItem="Nzk-0m-mTI" firstAttribute="width" secondItem="cUG-cw-a5P" secondAttribute="width" multiplier="1/2" id="J07-AS-uQW"/>
+                <constraint firstAttribute="trailing" secondItem="tR7-6e-U0g" secondAttribute="trailing" constant="10" id="Upp-lZ-ibc"/>
+                <constraint firstItem="Nzk-0m-mTI" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="a2g-ia-Vgc"/>
+                <constraint firstItem="CVe-k3-Kt3" firstAttribute="leading" secondItem="cUG-cw-a5P" secondAttribute="trailing" constant="10" id="nJD-do-tq9"/>
+                <constraint firstItem="CVe-k3-Kt3" firstAttribute="centerY" secondItem="cUG-cw-a5P" secondAttribute="centerY" id="opg-D0-KzO"/>
+                <constraint firstItem="tR7-6e-U0g" firstAttribute="leading" secondItem="cUG-cw-a5P" secondAttribute="trailing" constant="10" id="p97-lK-ZT7"/>
+                <constraint firstItem="tR7-6e-U0g" firstAttribute="top" secondItem="CVe-k3-Kt3" secondAttribute="bottom" constant="10" id="qxf-J0-V6y"/>
+                <constraint firstItem="Nzk-0m-mTI" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="shw-4b-O3t"/>
+                <constraint firstAttribute="trailing" secondItem="vLg-6u-pgB" secondAttribute="trailing" constant="10" id="srZ-Lo-80L"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <size key="customSize" width="397" height="199"/>
+            <connections>
+                <outlet property="imdbLabel" destination="Nzk-0m-mTI" id="1nd-Et-Kt8"/>
+                <outlet property="movieGenreLabel" destination="tR7-6e-U0g" id="U0e-C1-nO6"/>
+                <outlet property="movieImage" destination="cUG-cw-a5P" id="PKf-Aa-NBs"/>
+                <outlet property="movieNameLabel" destination="vLg-6u-pgB" id="AtT-sv-vfy"/>
+                <outlet property="movieYearLabel" destination="CVe-k3-Kt3" id="dEO-lw-QMa"/>
+            </connections>
+            <point key="canvasLocation" x="389.13043478260875" y="169.08482142857142"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="noImage" width="66.666664123535156" height="66.666664123535156"/>
+    </resources>
+</document>
